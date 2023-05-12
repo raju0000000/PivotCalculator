@@ -24,13 +24,12 @@ function App() {
 if(numbers.length > 0){
   console.log(numbers)
 }
-console.log(name)
+console.log(name) 
 
   return (
    <div> 
-   {/* <Navbar/> */}
-        <Routes>
-         
+ 
+        <Routes>        
             <Route path="/" element={<Step1/>}/>
             <Route path='/step2' element={<Step2 nameHandler={nameHandler}/>}/>
             <Route path='/showData' element={<ShowData numbers = {numbers} name = {name}/>}/>
