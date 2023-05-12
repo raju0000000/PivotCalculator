@@ -32,7 +32,7 @@ export default function Step2({ nameHandler }) {
   };
 
   return (
-    <div
+    <div   
       className="text-center container mt-5"
       style={{ backgroundColor: "#e9ecef", width: "300px", height: "250px" }}
     >
